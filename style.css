@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+:root{
+    /* primary color */
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+
+    --grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#container{
+    color: var(--white);
+    width: 25rem;
+    height: 38rem;
+    background-color: var(--Grey-800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-pic{
+    width: 240px;
+    height: 170px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--green);
+    font-weight: 700;
+}
+
+.career-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 16px 0 23px 0;
+}
+
+.link-section{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    width: 20rem;
+    height: 2.5rem;
+    background-color: var(--grey-700);
+}
