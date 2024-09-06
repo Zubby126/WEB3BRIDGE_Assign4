@@ -34,6 +34,7 @@ body{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 1.3rem;
 }
 
 .profile-section{
@@ -41,12 +42,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: .7rem;
 }
 
 .profile-pic{
-    width: 240px;
-    height: 170px;
+    width: 14rem;
+    height: 10rem;
 }
 
 h1{
@@ -62,8 +63,7 @@ h3{
 
 .career-text{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    padding: 16px 0 23px 0;
+    font-size: 1.1rem;
 }
 
 .link-section{
@@ -81,8 +81,18 @@ div{
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 15px;
-    width: 20rem;
-    height: 2.5rem;
+    border-radius: 1rem;
+    width: 20.5rem;
+    height: 2.9rem;
     background-color: var(--grey-700);
+}
+
+div:hover{
+    cursor: pointer;
+    background-color: var(--green);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
 }
